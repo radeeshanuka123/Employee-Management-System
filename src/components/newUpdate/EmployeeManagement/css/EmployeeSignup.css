@@ -1,0 +1,213 @@
+body{
+    background: #1f242d;
+    
+}
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 0;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
+    max-width: 50%;
+    margin: auto;
+}
+
+.left-container,
+.right-container {
+    max-width: 50%;
+    margin: 0;
+    padding: 4rem;
+}
+
+.heading {
+    font-size: 4rem;
+    text-align: center;
+    padding: 2rem;
+    padding-bottom: 4rem;
+    color: white;
+    text-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+    font-weight: 800;
+}
+
+.form-container h1 {
+    color: #252525;
+    padding-bottom: 3.5rem;
+    text-align: center;
+}
+
+.form-h3{
+    color: #252525;
+    padding-bottom: 3.5rem;
+    text-align: center;
+    font-weight: 800;
+    font-size: 30px;
+    
+}
+
+.form-field {
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 0 2rem;
+    
+}
+
+.form-field input[type="text"],
+.form-field input[type="email"],
+.form-field input[type="password"],
+.form-field input[type="date"],
+select {
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: none;
+    outline: 1px solid gray;
+}
+
+
+.form-input{
+    min-width: 200px;
+   max-width:400px;
+}
+label{
+    font-weight: 650;
+}
+
+.submit-btn {
+    color: white;
+    background-color: #252525;
+    font-size:small;
+    padding: .8rem 2rem;
+    border-radius: 4px;
+    border: none;
+    outline: 1px solid grey;
+    float: right;
+    margin: 2rem 0;
+    font-weight: bold;
+}
+
+.submit-btn:hover{
+    color: rgb(1, 8, 20);
+    background-color: rgb(255, 255, 255);
+}
+
+.login-div{
+    float: right;
+    padding: 2rem;
+    
+}
+
+.login-btn{
+    color: black ;
+    background-color: white;
+    font-weight: bold;
+    font-size:small;
+    padding: .8rem 2rem;
+    border-radius: 4px;
+    border: none;
+    outline: 1px solid grey;
+}
+
+.login-btn:hover{
+    background-color: rgb(1, 8, 20);
+    color: rgb(255, 255, 255);
+}
+
+
+.home-button{
+    color: white;
+    background-color: #252525;
+    font-size:small;
+    padding: .8rem 2rem;
+    border-radius: 4px;
+    border: none;
+    outline: 1px solid grey;
+    float: bottom;
+    margin: 2rem 2rem;
+    font-weight: bold;
+}
+
+.home-button:hover{
+    color: rgb(1, 8, 20);
+    background-color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+
+
+/* EmployeeSignup.css */
+
+/* Styles for screens up to 768px wide */
+/* EmployeeSignup.css */
+
+/* Styles for screens up to 768px wide */
+@media (max-width: 1100px) {
+  .form-container {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .left-container {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .submit-btn,
+  .home-button {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  .submit-btn:last-child,
+  .home-button:last-child {
+    margin-right: 0;
+  }
+}
+
+/* Styles for screens up to 400px wide */
+/* EmployeeSignup.css */
+
+/* Styles for screens up to 768px wide */
+@media (max-width: 768px) {
+  .form-container {
+    max-width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left-container {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .submit-btn,
+  .home-button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .submit-btn:last-child,
+  .home-button:last-child {
+    margin-bottom: 0;
+  }
+}
+
+/* Styles for screens up to 400px wide */
+@media (max-width: 400px) {
+  .submit-btn,
+  .home-button {
+    display: inline-block;
+    width: auto;
+  }
+
+  .form-field {
+    margin-bottom: 10px;
+  }
+}

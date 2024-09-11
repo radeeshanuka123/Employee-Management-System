@@ -1,0 +1,56 @@
+/* ViewDetails.css */
+
+/*.view-details {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  margin: 10px 0;
+}
+
+
+{
+  */
+
+
+  .view-details {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    
+    color: aliceblue;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  p {
+    margin: 10px 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    color: aliceblue;
+
+  }
+
+
+
+
+  @media (max-width: 768px) {
+  
+}
+
+  @media (max-width: 400px) {
+
+
+}
+  
+  

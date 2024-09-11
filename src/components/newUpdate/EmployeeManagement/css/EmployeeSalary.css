@@ -1,0 +1,54 @@
+/* App.css */
+body{
+    background-color: #1f242d;
+}
+.slary-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 200px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+
+}
+
+.salary-heading1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.salary-label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.salary-input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.salary-btn {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.salary-btn:hover {
+  background-color: #0056b3;
+}
+
+.salary-span {
+  font-weight: bold;
+}

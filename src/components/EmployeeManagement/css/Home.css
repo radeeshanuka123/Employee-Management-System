@@ -1,0 +1,127 @@
+/* Home.css */
+/*
+.homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.button-div {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.login-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.form-container {
+  max-width: 600px;
+  width: 100%;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.button-as-div {
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+*/
+
+/* Home.css */
+.homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.button-div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.login-btn {
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-btn:hover {
+  background-color: #0056b3;
+}
+
+.form-container-home {
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.button-as-div {
+  margin-top: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #1873db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #19191a;
+}
+
+@media (max-width: 768px) {
+  .button-div {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .login-btn {
+    margin: 10px 0;
+  }
+
+  .form-container-home {
+    padding: 0 10px;
+  }
+}
+
+
+

@@ -1,0 +1,31 @@
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.resort-name {
+    text-align: center;
+    color: #333;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.section-title {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.section-description {
+    color: #666;
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.about-content {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+}

@@ -1,0 +1,32 @@
+/* EmployeeSearchBar.css */
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center items horizontally */
+  margin-bottom: 20px;
+}
+
+.login-div {
+  margin-right: auto; /* Push the login button to the left */
+}
+
+.login-btn,
+.searchBar-search-btn {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.input {
+  padding: 8px;
+  width: 200px;
+  border: 1px solid #ccc;
+  margin: 0 10px; /* Adjust margin for spacing */
+}
+
+#search-icon {
+  vertical-align: middle;
+}

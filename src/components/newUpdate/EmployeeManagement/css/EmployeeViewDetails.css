@@ -1,0 +1,46 @@
+/* ViewDetails.css */
+
+
+body {
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.view-details-container {
+  margin: 100px auto; /* Center horizontally, with top margin */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  width: 50%;
+  max-width: 800px; /* Limit width for larger screens */
+  box-sizing: border-box; /* Include padding and border in width calculation */
+}
+
+.view-details-h2 {
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: 800;
+  font-size: 30px;
+
+}
+
+.view-details-p {
+  margin-bottom: 5px;
+  color: #333;
+  font-size: 18px;
+  font-weight: 600;
+
+}
+
+@media (max-width: 768px) {
+  .view-details-container {
+    width: 80%; /* Adjust width for medium screens */
+  }
+}
+
+@media (max-width: 400px) {
+  .view-details-container {
+    width: 90%; /* Adjust width for small screens */
+  }
+}

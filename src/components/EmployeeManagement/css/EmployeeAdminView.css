@@ -1,0 +1,69 @@
+/* EmployeeAdminView.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.Employee_homepage {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 1200px;
+  
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* EmployeeAdminView.css */
+
+/* Define blue colors */
+:root {
+  --primary-blue: #007bff; /* Primary blue color */
+  --td-blue: #cce5ff; /* Light blue for td elements */
+}
+
+/* Overall styling for the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+/* Styling for table header */
+th {
+  background-color: var(--primary-blue);
+  color: white;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Styling for table rows */
+td {
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+  background-color: var(--td-blue); /* Set background color for td elements */
+}
+
+/* Alternate row color */
+tr:nth-child(even) {
+  background-color: #f8f9fa; /* Light gray color */
+}
+
+/* Hover effect on rows */
+tr:hover {
+  background-color: #e9ecef; /* Lighter gray color */
+}
+
+/* Button styling */
+button {
+  background-color: var(--primary-blue);
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+
